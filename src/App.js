@@ -1,8 +1,10 @@
-import React from 'react';
+import "react-native-gesture-handler"
 
-import Dashboard from './screens/dashBoard';
+import React from 'react';
+import AppStack from './navigation';
+
 const App = () => {
-  return <Dashboard />;
+  return <AppStack />;
 };
 
 export default App;
