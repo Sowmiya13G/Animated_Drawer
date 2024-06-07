@@ -6,7 +6,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  self.moduleName = @"Game";
+  self.moduleName = @"AnimatedDrawer";
   return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 

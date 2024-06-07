@@ -1,10 +1,17 @@
-import "react-native-gesture-handler"
+import 'react-native-reanimated';
+import 'react-native-gesture-handler';
 
 import React from 'react';
-import AppStack from './navigation';
+import { NavigationContainer } from '@react-navigation/native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import CustomDrawerRootNavigator from './navigators/CustomDrawerRootNavigator';
 
-const App = () => {
-  return <AppStack />;
-};
-
-export default App;
+export default function App() {
+  return (
+    <SafeAreaProvider>
+      <NavigationContainer>
+        <CustomDrawerRootNavigator />
+      </NavigationContainer>
+    </SafeAreaProvider>
+  );
+}

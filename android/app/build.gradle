@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.game"
+    namespace "com.AnimatedDrawer"
     defaultConfig {
-        applicationId "com.game"
+        applicationId "com.AnimatedDrawer"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
